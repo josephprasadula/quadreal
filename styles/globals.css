@@ -14,3 +14,23 @@ a {
 * {
   box-sizing: border-box;
 }
+.featuresection{
+  background-color: rgb(255,255,255);
+}
+.container{
+  margin: 10rem;
+}
+.topbox{
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+}
+.topbox>p{
+  width: 25rem;
+}
+.cardgrid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}

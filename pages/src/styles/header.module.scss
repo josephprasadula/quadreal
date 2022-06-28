@@ -1,0 +1,32 @@
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logobox{
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: white;
+        padding: 1.05rem;
+    }
+    nav{
+        ul{
+            list-style: none;
+            display: flex;
+            align-items: center;
+            li:not(:last-child){
+                color: white;
+                margin-right: 2rem;
+                width: 67px;
+                height: 26px;
+            }
+            .navbutton{
+                border: 2px solid transparent;
+                outline: none;
+                border-radius: 1rem;
+                padding: 1rem;
+                width: 8rem;
+                text-align: center;
+            }
+        }
+    }
+}
