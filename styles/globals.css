@@ -238,8 +238,8 @@ a {
 }
 .panel{
 padding: 0.8rem;
-border: 1px solid rgb(40, 39, 39);
-border-radius: 8px;
+border: 1px solid rgb(40, 39, 39) !important;
+border-radius: 8px !important;
 margin-bottom: 1rem;
 background-color: white;
 }
@@ -250,7 +250,6 @@ background-color: white;
 /* *********** Download section starts here *****************/
 .download-section{
   background-image: url('../pages/src/media/bg.png');
-  background-repeat: no-repeat;
   margin-left: 6rem;
   margin-bottom: 5rem;
   border-bottom-left-radius: 20% 22%;
