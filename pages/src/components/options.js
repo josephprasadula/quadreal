@@ -10,7 +10,7 @@ export default function Options() {
   return (
     <section className='options-section'>
       <div className='amenties'>
-        <Row  justify='end' align='middle'>
+        <Row lg={{justify:'end'}} xs={{justify:'center'}} align='middle'>
           <Col lg={{span:8,order:1}} xs={{span:16,order:2}}>
             <div className='amentiesTextbox'>
               <h6>

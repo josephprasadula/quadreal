@@ -9,7 +9,7 @@ export default function download() {
   return (
     <section className='download-section'>
         <Row>
-            <Col span={12}>
+            <Col lg={{span:12}} xs={{span:24}}>
                 <div className='downloadtextbox'>
                     <h3>
                     Download our new tenant experience app today!
@@ -23,7 +23,7 @@ export default function download() {
                     </div>
                 </div>
             </Col>
-            <Col span={12}>
+            <Col lg={{span:12}} xs={{span:0}}>
                 <Row align='middle'>
                     <Col className='IphoneImg' span={12}><Image src={IphoneImg}/></Col>
                     <Col className='PixelImg' span={12}><Image src={PixelImg}/></Col>

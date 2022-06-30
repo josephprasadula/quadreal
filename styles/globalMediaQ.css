@@ -1,4 +1,7 @@
 @media(max-width : 425px){
+.container{
+ margin: 2rem;   
+}
     /* ************ Header section starts here ********************/
 .header-section{
     margin-bottom: 3rem;
@@ -10,7 +13,7 @@
     background-repeat: no-repeat;
     background-size: contain;
     background-color: rgb(27,126,227);
-    border-bottom-right-radius: 108% 36%;
+    border-bottom-right-radius: 50% 64%;
 }
 .hero-textbox{
     padding: 1rem;
@@ -20,10 +23,11 @@
 }
 .hero-lablebox{
     padding: 2rem;
-    position: absolute;
-    left: -30px;
-    top: 684px;
+    position: relative;
+    left: 0;
+    top: 0;
     background: #FFFFFF;
+    width: fit-content;
 }
 .hero-lablebox>span{
     font-weight: 500;
@@ -53,7 +57,7 @@ color: #1c7ee2;
 font-size: 28px;
 }
 .topbox>p{
-width: 25rem;
+width: fit-content;
 font-weight: 400;
 font-size: 16px;
 line-height: 140%;
@@ -67,7 +71,18 @@ color: #31383f;
 }
 
 /* ************ options section starts here ****************/
-
+.amentiesTextbox,.optionsTextbox{
+    border-radius: 2rem;
+    width: fit-content;
+    width: 23rem;
+    padding: 38px 60px 41px 50px;;
+}
+.amentiesTextbox>h6,.optionsTextbox>h6{
+    font-size: 14px;
+}
+.amentiesTextbox>h3,.optionsTextbox>h3{
+    font-size: 28px;
+}
 .amentiesTextbox{
     position: relative;
     left: 0px;
@@ -82,9 +97,41 @@ color: #31383f;
   }
 /* ******* frequently asked section **************/
 
+.frequently-textbox{
+    text-align: center;
+    /* width: 32rem; */
+    width: 20rem;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
 
 /* *********** Download section starts here *****************/
 
+.download-section{
+    background-image: url('../pages/src/media/mobile/bg.png');
+    background-repeat: no-repeat;
+    margin-left: 0rem;
+    margin-bottom: 3rem;
+    border-bottom-left-radius: 0% 2%;
+    padding: 2rem;
+  }
+  .downloadtextbox>h3{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 25%;
+    width: 60%;
+    text-align: inherit;
+    margin-left: 26%;
+  }
+  .imgbox{
+    margin-bottom: 17rem;
+  }
 /* ********* Footer section ***********/
-
+.footer-text{
+    display: block;
+}
 }
