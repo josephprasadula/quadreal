@@ -10,8 +10,8 @@ export default function Options() {
   return (
     <section className='options-section'>
       <div className='amenties'>
-        <Row justify='end' align='middle'>
-          <Col span={8}>
+        <Row  justify='end' align='middle'>
+          <Col lg={{span:8,order:1}} xs={{span:16,order:2}}>
             <div className='amentiesTextbox'>
               <h6>
               AMENITIES
@@ -27,15 +27,15 @@ export default function Options() {
               </Button>
             </div>
           </Col>
-          <Col span={16}>
+          <Col lg={{span:16,order:2}} xs={{span:24,order:1}}>
             <Image src={amentiesImg} alt='amenities image'></Image>
           </Col>
         </Row>
       </div>
       <div className='options-ritual'>
         <Row justify='start' align='middle'>
-          <Col span={16}><Image src={optionIMg} alt='amenities image'></Image></Col>
-          <Col span={8}><div className='optionsTextbox'>
+          <Col lg={{span:16}} xs={{span:24}}><Image src={optionIMg} alt='amenities image'></Image></Col>
+          <Col lg={{span:8}} xs={{span:16}}><div className='optionsTextbox'>
           <h6>
           Ritual
           </h6>

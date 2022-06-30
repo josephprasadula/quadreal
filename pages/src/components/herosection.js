@@ -6,13 +6,13 @@ import styles from '../styles/hero.module.scss'
 import PhoneImg from '../media/images@2x.png'
 import PlaystoreImg from '../media/appstore.png'
 import AppstoreImg from '../media/googleplay.png'
-import Header from './header'
+import HeaderNew from './headerNew'
 
 export default function Herosection() {
   return (
     <section className={styles.herosection}>
       <div className={styles.container}>
-        <Header/>
+        <HeaderNew />
         <div className={styles.layout}>
           <div className={styles.textbox}>
             <h1>

@@ -1,0 +1,90 @@
+@media(max-width : 425px){
+    /* ************ Header section starts here ********************/
+.header-section{
+    margin-bottom: 3rem;
+}
+/* *************** Hero section starts here ***********************/
+.herosection{
+    background-image: url('../pages/src/media/mobile/Rectangle\ 1036.png');
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(27,126,227);
+    border-bottom-right-radius: 108% 36%;
+}
+.hero-textbox{
+    padding: 1rem;
+}
+.hero-textbox>h1{
+    font-size: 28px;
+}
+.hero-lablebox{
+    padding: 2rem;
+    position: absolute;
+    left: -30px;
+    top: 684px;
+    background: #FFFFFF;
+}
+.hero-lablebox>span{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: #73818F;
+    margin-bottom: 1rem;
+}
+/* ********* features section start here ****************/
+.topbox{
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+  }
+.topbox>h3{
+font-weight: 500;
+font-size: 14px;
+line-height: 34px;
+text-align: center;
+letter-spacing: 4px;
+text-transform: uppercase;
+color: #1c7ee2;
+}
+.topbox>h2{
+font-size: 28px;
+}
+.topbox>p{
+width: 25rem;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* text-align: center; */
+color: #31383f;
+}
+.cardgrid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+}
+
+/* ************ options section starts here ****************/
+
+.amentiesTextbox{
+    position: relative;
+    left: 0px;
+    background: white;
+    z-index: 22;
+}
+.optionsTextbox{
+    position: relative;
+    right: 0px;
+    background: white;
+    z-index: 22;
+  }
+/* ******* frequently asked section **************/
+
+
+/* *********** Download section starts here *****************/
+
+/* ********* Footer section ***********/
+
+}

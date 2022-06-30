@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 import Herosection from './src/components/herosection';
+import HerosectionNew from './src/components/heroSectionNew';
 import Featuresection from './src/components/features';
 import Optionsection from './src/components/options';
 import Frequently from './src/components/frequently';
@@ -16,7 +17,8 @@ export default function Home() {
         <meta name="description" content="quadreal+ website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Herosection />
+      {/* <Herosection /> */}
+      <HerosectionNew />
       <Featuresection />
       <Optionsection />
       <Frequently />
