@@ -133,4 +133,10 @@ color: #31383f;
 .footer-text{
     display: block;
 }
+.footer-logo{
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+}
 }

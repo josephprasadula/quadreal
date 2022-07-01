@@ -15,7 +15,7 @@ export default function HeaderNew() {
                 <Col className='navline'>Features</Col>
                 <Col className='navline'>Lorem</Col>
                 <Col className='navline'>FAQ</Col>
-                <Col><Button shape="round" className='navbutton'>Download Now</Button></Col>
+                <Col><Button shape="round">Download Now</Button></Col>
             </Row>            
             </Col>
         </Row>
