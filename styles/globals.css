@@ -272,9 +272,16 @@ background-color: white;
   font-weight: 500;
 }
 .box-open{
-  border: 1px solid #00add7;
+  border: 1px solid #00add7 !important ;
   box-shadow: 0 15px 23px rgb(0 0 0 / 7%);
   border-radius: 20px;
+  padding: 0.8rem;
+  border-radius: 8px !important;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+.box-open>h3{
+  font-weight: 500;
 }
 /* *********** Download section starts here *****************/
 .download-section{
