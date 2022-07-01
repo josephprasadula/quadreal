@@ -12,9 +12,9 @@ export default function HeaderNew() {
             </Col>
             <Col lg={8} xs={0} offset={11} className='navbar'>
             <Row justify='space-between' align='middle'>
-                <Col>Features</Col>
-                <Col>Lorem</Col>
-                <Col>FAQ</Col>
+                <Col className='navline'>Features</Col>
+                <Col className='navline'>Lorem</Col>
+                <Col className='navline'>FAQ</Col>
                 <Col><Button shape="round" className='navbutton'>Download Now</Button></Col>
             </Row>            
             </Col>

@@ -8,7 +8,7 @@ import { Col, Row ,Button} from 'antd';
 export default function download() {
   return (
     <section className='download-section'>
-        <Row>
+        <Row style={{margin:'1rem'}}>
             <Col lg={{span:12}} xs={{span:24}}>
                 <div className='downloadtextbox'>
                     <h3>

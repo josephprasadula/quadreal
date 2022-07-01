@@ -41,18 +41,43 @@ a {
   height: 45px;
   width: 173px;
   cursor: pointer;
+  color: #fff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.navline{
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
 }
 /* *************** Hero section starts here ***********************/
 .herosection{
-  background-image: url('../pages/src/media/Rectangle\ 1036@2x.png');
-  background-blend-mode: multiply;
+  background-image: url('../pages/src/media/Group\ 489.png');
+  /* background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: contain;
-  background-color: rgb(27,126,227);
+  background-color: rgb(27,126,227); */
+  position: relative;
+  /* background-image: url(/_next/static/media/home-bg.7d3859e….png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  background-position: bottom;
+  width: 100%;
+  left: 0;
+  top: 0;
 }
 /* .hero-container{
   margin: 0rem 5rem;
 } */
+.hero-textbox{
+  margin-top: 2rem;
+}
 .hero-textbox>h1{
   font-family: Inter;
   font-size: 45.2667px;
