@@ -7,10 +7,10 @@ export default function HeaderNew() {
   return (
     <header className='header-section'>
         <Row align='middle'>
-            <Col className='logobox' lg={4} xs={20}>
+            <Col className='logobox' lg={5} xs={20}>
                 <Image className='logo' src={LogoImg} alt='logo Img'/>
             </Col>
-            <Col lg={8} xs={0} offset={12} className='navbar'>
+            <Col lg={8} xs={0} offset={11} className='navbar'>
             <Row justify='space-between' align='middle'>
                 <Col>Features</Col>
                 <Col>Lorem</Col>

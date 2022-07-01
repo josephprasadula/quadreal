@@ -24,7 +24,7 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  margin: 0rem 7rem;
+  margin: 0rem 7.625rem;
 }
 .logobox{
   border-bottom-left-radius: 20px;
@@ -250,6 +250,8 @@ background-color: white;
 /* *********** Download section starts here *****************/
 .download-section{
   background-image: url('../pages/src/media/bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-left: 6rem;
   margin-bottom: 5rem;
   border-bottom-left-radius: 20% 22%;
