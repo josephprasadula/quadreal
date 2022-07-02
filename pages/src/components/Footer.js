@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className='footer-section'>
         <div className='container footer'>
         <Row align='middle'>
-            <Col lg={{span:8}} xs={{span:24,justify:'center'}}>
+            <Col lg={{span:6,offset:2}} xs={{span:16,offset:4,justify:'center'}}>
                 <Image src={LogoImg} className='footer-logo' alt='logo in footer' />
             </Col>
             <Col lg={{span:4}} xs={{span:0}}>
@@ -22,19 +22,19 @@ export default function Footer() {
             </Col>
             <Col lg={{span:4}} xs={{span:24}}>
                 <Row justify='center' gutter={4}>
-                    <Col><FacebookFilled style={{fontSize:'1.5rem'}} /></Col>
-                    <Col><TwitterOutlined style={{fontSize:'1.5rem'}} /></Col>
-                    <Col><InstagramOutlined style={{fontSize:'1.5rem'}} /></Col>            
+                    <Col><FacebookFilled style={{fontSize:'1.5rem',marginTop:'1.5rem'}} /></Col>
+                    <Col><TwitterOutlined style={{fontSize:'1.5rem',marginTop:'1.5rem'}} /></Col>
+                    <Col><InstagramOutlined style={{fontSize:'1.5rem',marginTop:'1.5rem'}} /></Col>            
                 </Row>
             </Col>
-            <Col lg={{span:4}} xs={{span:0}}>
+            <Col lg={{span:2,offset:2}} xs={{span:0}}>
             <Button type="primary" onClick={()=>{document.documentElement.scrollTop = 0;}} shape="circle" icon={<ArrowUpOutlined />} size='large' />
             </Col>
         </Row>
         <Row>
-            <Col lg={{span:12}} xs={{span:24}}><h4 className='footer-text'>©2021 QuadReal+. All Rights Reserved.</h4></Col>
-            <Col lg={{span:6}} xs={{span:0}}><h4 className='footer-text'>Terms & Conditions</h4></Col>
-            <Col lg={{span:6}} xs={{span:0}}><h4 className='footer-text'>Privacy policy</h4></Col>
+            <Col lg={{span:16,offset:0}} xs={{span:20,offset:2}}><h4 className='footer-text'>©2021 QuadReal+. All Rights Reserved.</h4></Col>
+            <Col lg={{span:3,offset:1}} xs={{span:0}}><h4 className='footer-text'>Terms & Conditions</h4></Col>
+            <Col lg={{span:3,offset:1}} xs={{span:0}}><h4 className='footer-text'>Privacy policy</h4></Col>
         </Row>
         </div>
         

@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-import amentiesImg from '../media/amenites@2x.png'
+import amentiesImg from '../media/amenites@2x123.png'
 import optionIMg from '../media/order@2x.png'
 import { DownloadOutlined } from '@ant-design/icons';
 import { Col, Row ,Button} from 'antd';
@@ -11,7 +11,7 @@ export default function Options() {
     <section className='options-section'>
       <div className='amenties'>
         <Row lg={{justify:'end'}} xs={{justify:'center'}} align='middle'>
-          <Col lg={{span:8,order:1}} xs={{span:16,order:2}}>
+          <Col lg={{span:8,order:1}} xs={{span:24,order:2}}>
             <div className='amentiesTextbox'>
               <h6>
               AMENITIES
@@ -28,14 +28,14 @@ export default function Options() {
             </div>
           </Col>
           <Col lg={{span:16,order:2}} xs={{span:24,order:1}}>
-            <Image src={amentiesImg} alt='amenities image'></Image>
+            <Image src={amentiesImg} alt='amenities image' />
           </Col>
         </Row>
       </div>
       <div className='options-ritual'>
         <Row justify='start' align='middle'>
           <Col lg={{span:16}} xs={{span:24}}><Image src={optionIMg} alt='amenities image'></Image></Col>
-          <Col lg={{span:8}} xs={{span:16}}><div className='optionsTextbox'>
+          <Col lg={{span:8}} xs={{span:24}}><div className='optionsTextbox'>
           <h6>
           Ritual
           </h6>

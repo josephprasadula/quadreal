@@ -267,18 +267,22 @@ border: 1px solid rgb(40, 39, 39) !important;
 border-radius: 8px !important;
 margin-bottom: 1rem;
 background-color: white;
+backdrop-filter: blur(24px);
 }
 .panel>h3{
   font-weight: 500;
 }
-.box-open{
-  border: 1px solid #00add7 !important ;
+.ant-collapse-item-active{
+    border: 1px solid #00add7 !important ;
   box-shadow: 0 15px 23px rgb(0 0 0 / 7%);
   border-radius: 20px;
   padding: 0.8rem;
   border-radius: 8px !important;
   margin-bottom: 1rem;
-  background-color: white;
+  background-color: rgb(239,240,246);
+}
+.box-open{
+
 }
 .box-open>h3{
   font-weight: 500;

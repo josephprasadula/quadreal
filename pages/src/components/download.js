@@ -18,8 +18,12 @@ export default function download() {
                     We bring the breather of our experience and industy knowledge to help you with your problem and solution.
                     </p>
                     <div className='imgbox'>
-                    <Image src={PlaystoreImg}/>
-                    <Image src={AppstoreImg}/>
+                        <Row>
+                            <Col xs={{span:12}}><Image src={PlaystoreImg}/></Col>
+                            <Col xs={{span:12}}><Image src={AppstoreImg}/></Col>
+                        </Row>
+                    
+                    
                     </div>
                 </div>
             </Col>
