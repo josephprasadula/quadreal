@@ -345,5 +345,5 @@ backdrop-filter: blur(24px);
   line-height: 24px;
   color: #14142b;
   opacity: .75;
-  margin-top: 2rem;
+  /* margin-top: 2rem; */
 }

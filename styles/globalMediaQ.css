@@ -87,7 +87,7 @@ color: #31383f;
 .amentiesTextbox,.optionsTextbox{
     border-radius: 2rem;
     width: fit-content;
-    width: 23rem;
+    width: 98%;
     padding: 15px 22px;
     text-align: center;
 }
@@ -110,7 +110,7 @@ color: #31383f;
 .frequently-textbox{
     text-align: center;
     /* width: 32rem; */
-    width: 20rem;
+    width: 98%;
     margin: auto;
     left: 0;
     right: 0;
@@ -159,5 +159,14 @@ color: #31383f;
     left: 0;
     right: 0;
     width: fit-content;
+}
+.icon-box{
+    margin-top: 2rem;
+}
+}
+
+@media(max-width : 425px){
+.frequently-textbox>h3{
+    font-size: 3rem;
 }
 }
