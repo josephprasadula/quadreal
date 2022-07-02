@@ -13,13 +13,13 @@ export default function Herosection() {
     <HeaderNew />
       <div className='hero-container'>
         <Row align='middle' justify='space-around'>
-            <Col lg={{span:10}} xs={{span:18,offset:2}}>
+            <Col lg={{span:7,offset:3}} xs={{span:18,offset:0}}>
             <div className='hero-textbox'>
             <h1>
-            Delivering connected & Seamless Tenant Experiences
+            Delivering connected &amp; Seamless Tenant Experiences
             </h1>
             <p>
-            Stay connected by taking advantage of our real-time building communications, access events and news, exclusive retailer promotions, and enjoy the innovative ways we’re connecting smart building technology with our community.
+            Stay connected by taking advantage of our real-time building communications, access events and news, exclusive retailer promotions, and enjoy the innovative ways we&apos;re connecting smart building technology with our community.
             </p>
             <div className='hero-lablebox'>
               <span>Available on both iPhone and Android devices</span>
@@ -30,7 +30,7 @@ export default function Herosection() {
             </div>
           </div>
             </Col>
-            <Col lg={{span:12}} xs={{span:24}}>
+            <Col className='hero-phone-section'  lg={{span:12}} xs={{span:24}}>
                 <Image src={PhoneImg} alt='modal of mobile appp' />
             </Col>
         </Row>

@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Herosection from './src/components/herosection';
 import HerosectionNew from './src/components/heroSectionNew';
 import Featuresection from './src/components/features';
 import Optionsection from './src/components/options';

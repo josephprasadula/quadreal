@@ -9,7 +9,7 @@ export default function Footer() {
     <footer className='footer-section'>
         <div className='container footer'>
         <Row align='middle'>
-            <Col lg={{span:6,offset:2}} xs={{span:16,offset:4,justify:'center'}}>
+            <Col lg={{span:8,offset:0}} xs={{span:16,offset:4,justify:'center'}}>
                 <Image src={LogoImg} className='footer-logo' alt='logo in footer' />
             </Col>
             <Col lg={{span:4}} xs={{span:0}}>
